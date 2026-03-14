@@ -1,2 +1,170 @@
-<h1>Hola Mundo</h1>
-<p></p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Brew - Cyberpunk Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cyber-bg"></div>
+    <div class="grid-lines"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">NEXUS BREW</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#specialty">Especialidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1 class="hero-title">NEXUS BREW</h1>
+        <p class="hero-subtitle">Donde el Café se Encuentra con el Cyberpunk</p>
+        <div class="hero-buttons">
+            <a href="#menu" class="cta-btn">Explorar Menú</a>
+            <a href="#specialty" class="cta-btn secondary">Ver Especialidades</a>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <section id="menu">
+        <h2 class="section-title">MENÚ DIGITAL</h2>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <h3>☕ Bebidas Calientes</h3>
+                <div class="menu-item">
+                    <span>Neon Espresso</span>
+                    <span class="menu-price">$4.75</span>
+                </div>
+                <div class="menu-item">
+                    <span>Cyber Latte</span>
+                    <span class="menu-price">$5.75</span>
+                </div>
+                <div class="menu-item">
+                    <span>Matrix Mocha</span>
+                    <span class="menu-price">$6.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Glitch Cappuccino</span>
+                    <span class="menu-price">$5.25</span>
+                </div>
+                <div class="menu-item">
+                    <span>Binary Americano</span>
+                    <span class="menu-price">$4.50</span>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <h3>❄️ Bebidas Frías</h3>
+                <div class="menu-item">
+                    <span>Hologram Cold Brew</span>
+                    <span class="menu-price">$5.40</span>
+                </div>
+                <div class="menu-item">
+                    <span>Cybernetic Iced Latte</span>
+                    <span class="menu-price">$6.25</span>
+                </div>
+                <div class="menu-item">
+                    <span>Neon Nitro</span>
+                    <span class="menu-price">$7.00</span>
+                </div>
+                <div class="menu-item">
+                    <span>Digital Frappe</span>
+                    <span class="menu-price">$7.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Matrix Matcha</span>
+                    <span class="menu-price">$6.25</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specialty">
+        <h2 class="section-title">ESPECIALIDADES</h2>
+        <div class="specialty-grid">
+            <div class="specialty-card">
+                <div class="specialty-badge">Exclusivo</div>
+                <div class="specialty-icon">⚡</div>
+                <h3>Tostado Cuántico</h3>
+                <p>Nuestro proceso revolucionario manipula los granos de café a nivel molecular, desbloqueando sabores que existen entre dimensiones.</p>
+            </div>
+            
+            <div class="specialty-card">
+                <div class="specialty-badge">Limitado</div>
+                <div class="specialty-icon">🧬</div>
+                <h3>Mezclas Bio-Mejoradas</h3>
+                <p>Café infusionado con nootrópicos y adaptógenos diseñados para optimizar la función cognitiva y potenciar tu creatividad.</p>
+            </div>
+            
+            <div class="specialty-card">
+                <div class="specialty-badge">Premium</div>
+                <div class="specialty-icon">🌌</div>
+                <h3>Cold Brew Cósmico</h3>
+                <p>Envejecido en cámaras de simulación de gravedad cero durante 72 horas, desarrolla una suavidad y complejidad únicas.</p>
+            </div>
+            
+            <div class="specialty-card">
+                <div class="specialty-badge">Nuevo</div>
+                <div class="specialty-icon">🔮</div>
+                <h3>Arte Latte Holográfico</h3>
+                <p>Usamos tecnología de grabado láser para crear diseños 3D holográficos impresionantes en la espuma de tu latte.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">CONTACTO</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form onsubmit="event.preventDefault(); alert('¡Mensaje enviado a la matrix!');">
+                    <div class="form-group">
+                        <label for="name">ID Neural</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Dirección Digital</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Transmisión</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar a Matrix</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>📍 Ubicación</h3>
+                    <p>Manizales, Caldas<br>Digital District, ht 2025</p>
+                </div>
+                <div class="info-card">
+                    <h3>📞 Teléfono</h3>
+                    <p>+1 (555) NEXUS-01</p>
+                </div>
+                <div class="info-card">
+                    <h3>✉️ Email</h3>
+                    <p>hello@nexusbrew.cyber</p>
+                </div>
+                <div class="info-card">
+                    <h3>🕐 Horario</h3>
+                    <p>Lun-Vie: 6:00 AM - 11:00 PM<br>Sáb-Dom: 7:00 AM - 12:00 AM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Nexus Brew. Todos los derechos reservados.</p>
+        <p>Diseñado con tecnología de café cuántico ⚡</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
