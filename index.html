@@ -1,37 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexus Brew - Cyberpunk Cafe</title>
-    <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="styles.css">
+    <title>Mundo de Aves</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <a class="icon-link" href="#">
-  <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
-    <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
-  </svg>
-  Icon link
-</a>
-    <div class="fixed-bottom">...</div>
-    <button class="btn btn-primary">Primary</button>
-<button class="btn btn-secondary">Secondary</button>
-<button class="btn btn-success">Success</button>
-<button class="btn btn-danger">Danger</button>
-<button class="btn btn-warning">Warning</button>
-<button class="btn btn-info">Info</button>
-<button class="btn btn-dark">Dark</button>
- 
+<body class="bg-light">
 
-    <h1> hola mundo</h1>
-    <script src="script.js"></script>
-    ...
-    <footer>...</footer>
+    <nav class="navbar navbar-dark bg-success">
+        <div class="container">
+            <span class="navbar-brand fw-bold fs-4">🐦 Mundo de Aves</span>
+            <button class="btn btn-outline-light btn-sm">Contacto</button>
+        </div>
+    </nav>
 
-    <div class="sticky-bottom">...</div>
+    <div class="bg-success text-white text-center py-5">
+        <h1 class="fw-bold">Descubre el Mundo de las Aves</h1>
+        <p class="lead">Explora las especies más increíbles del planeta</p>
+        <button class="btn btn-warning btn-lg me-2">Ver Especies</button>
+        <button class="btn btn-outline-light btn-lg">Aprender Más</button>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="container my-5">
+        <h2 class="text-center text-success mb-4">Aves Destacadas</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="fs-1">🦅</div>
+                        <h5 class="card-title mt-2">Águila Real</h5>
+                        <p class="card-text text-muted">Ave rapaz poderosa con envergadura de hasta 2 metros.</p>
+                        <button class="btn btn-success">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="fs-1">🦜</div>
+                        <h5 class="card-title mt-2">Guacamayo</h5>
+                        <p class="card-text text-muted">Ave tropical de colores vibrantes con gran inteligencia.</p>
+                        <button class="btn btn-warning">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="fs-1">🦩</div>
+                        <h5 class="card-title mt-2">Flamenco</h5>
+                        <p class="card-text text-muted">Ave elegante de color rosado símbolo de gracia y belleza.</p>
+                        <button class="btn btn-danger">Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center mb-5">
+        <h4 class="mb-3 text-success">Explorar por categoría</h4>
+        <button class="btn btn-outline-success m-1">Rapaces</button>
+        <button class="btn btn-outline-warning m-1">Tropicales</button>
+        <button class="btn btn-outline-info m-1">Acuáticas</button>
+        <button class="btn btn-outline-danger m-1">En peligro</button>
+        <button class="btn btn-outline-dark m-1">Migratorias</button>
+    </div>
+
+    <footer class="bg-success text-white text-center py-3">
+        <p class="mb-0">© 2026 Mundo de Aves — Hecho con 💚</p>
+    </footer>
+
 </body>
 </html>
